@@ -1,5 +1,5 @@
 // Test Assertion Functions
-const assertEqual = function (actual, expected) {
+const assertEqual = function(actual, expected) {
   if (actual !== expected) {
     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
   } else if (actual === expected) {
@@ -9,13 +9,13 @@ const assertEqual = function (actual, expected) {
 
 // Exercise Function
 // inputString: a String that consist of anything.
-const countLetters = function (inputString) {
+const countLetters = function(inputString) {
   let results = {};
 
   for (const char of inputString) {
     if (char !== ' ') {
       // If it's found in results, increment++
-      if (results.hasOwnProperty(char)) {
+      if (results.prototype.hasOwnProperty.call(char)) {
         results[char] += 1;
       
       // Otherwise, create a new key.
