@@ -1,6 +1,6 @@
 //Implement a function eqArrays which takes in two arrays
 //and returns true or false, based on a perfect match.
-const eqArrays = function (firstArray, secondArray) {
+const eqArrays = function(firstArray, secondArray) {
   let isMatching = true;
 
   if (firstArray.length !== secondArray.length) {
@@ -18,7 +18,7 @@ const eqArrays = function (firstArray, secondArray) {
   return isMatching;
 };
 
-const assertEqual = function (actual, expected) {
+const assertEqual = function(actual, expected) {
   if (actual !== expected) {
     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
   } else if (actual === expected) {
